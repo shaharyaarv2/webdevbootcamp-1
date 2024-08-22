@@ -1,0 +1,9 @@
+.property{
+    display: flex;
+    flex-direction: column;
+}
+
+.propertyList{
+    display: flex;
+    justify-content: center;
+}
