@@ -9,8 +9,9 @@ import './property.css'
 // import ShoppingList from './shoppingList';
 // import PropertiesList from './propertyList';
 // import Counter from './counter';
-import Toggler from "./toggler";
-// import EmojiClicker from './emojiClicker'
+// import Toggler from "./toggler";
+// import ScoreKeeper from "./ScoreKeeper";
+import EmojiClicker from './EmojiClicker'
 // const properties = [
 //   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
 //   { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
@@ -23,7 +24,8 @@ import Toggler from "./toggler";
 function App() {
   return (
     <div>
-      <Toggler/>
+      {/* <ScoreKeeper/> */}
+      <EmojiClicker/>
     </div>
   )
 }
