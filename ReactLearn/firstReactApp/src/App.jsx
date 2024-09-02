@@ -11,7 +11,9 @@ import './property.css'
 // import Counter from './counter';
 // import Toggler from "./toggler";
 // import ScoreKeeper from "./ScoreKeeper";
-import EmojiClicker from './EmojiClicker'
+// import EmojiClicker from './EmojiClicker'
+import Box from './box';
+import BoxGrid from './BoxGrid';
 // const properties = [
 //   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
 //   { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
@@ -25,7 +27,9 @@ function App() {
   return (
     <div>
       {/* <ScoreKeeper/> */}
-      <EmojiClicker/>
+      {/* <EmojiClicker/> */}
+      <BoxGrid/>
+      
     </div>
   )
 }
